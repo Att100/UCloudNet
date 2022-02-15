@@ -1,6 +1,6 @@
 # UCloudNet: A residual U-Net with deep supervision for cloud segmentation
 
-## 1. Introduction
+## 1. Executive summary
 
 ## 2. Environment and Preparation
 
