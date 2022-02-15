@@ -1,0 +1,9 @@
+name,dataset,precision,recall,f-measure,error-rate
+UCloudNet(k=2)+aux+lr_decay,SWINySEG,0.90,0.92,0.91,0.08
+UCloudNet(k=4)+aux+lr_decay,SWINySEG,*0.92,*0.94,*0.93,*0.06
+UCloudNet(k=4)+lr_decay,SWINySEG,0.91,0.94,0.92,0.07
+UCloudNet(k=4),SWINySEG,0.92,0.90,0.91,0.08
+UCloudNet(k=2)+aux+lr_decay,SWIMSEG,0,0,0,0
+UCloudNet(k=2)+aux+lr_decay,SWINSEG,0,0,0,0
+UCloudNet(k=4)+aux+lr_decay,SWIMSEG,0,0,0,0
+UCloudNet(k=4)+aux+lr_decay,SWINSEG,0,0,0,0
