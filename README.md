@@ -21,8 +21,6 @@ In recent years, there is a growing tendency among the research of ground-based 
     conda install --yes --file requirements.txt
     ```
 
-    
-
 - Download SWINySEG dataset from [SWINySEG](http://vintage.winklerbros.net/swinyseg.html), and place the uncompressed folder under `./dataset` folder. Your `./dataset` directory should follow the structure below, if the name of uncompressed folder is not SWINySEG, please rename it to SWINySEG.
 
     ```
@@ -85,16 +83,16 @@ In recent years, there is a growing tendency among the research of ground-based 
     python train.py --k=4 --aux=0 --lr_decay=0 --model_tag=ucloudnet_k_4
 
     # train UCloudNet(k=2)+aux+lr_decay on SWINySEG day-time
-    python train.py --k=2 --model_tag=ucloudnet_k_2_aux_lr_decay_d
+    python train.py --k=2 --model_tag=ucloudnet_k_2_aux_lr_decay_d --dataset_split=d
 
     # train UCloudNet(k=2)+aux+lr_decay on SWINySEG night-time
-    python train.py --k=4 --model_tag=ucloudnet_k_4_aux_lr_decay_d
+    python train.py --k=2 --model_tag=ucloudnet_k_2_aux_lr_decay_n --dataset_split=n
 
     # train UCloudNet(k=4)+aux+lr_decay on SWINySEG day-time
-    python train.py --k=2 --model_tag=ucloudnet_k_2_aux_lr_decay_n
+    python train.py --k=4 --model_tag=ucloudnet_k_4_aux_lr_decay_d --dataset_split=d
 
     # train UCloudNet(k=4)+aux+lr_decay on SWINySEG night-time
-    python train.py --k=4 --model_tag=ucloudnet_k_2_aux_lr_decay_n
+    python train.py --k=4 --model_tag=ucloudnet_k_4_aux_lr_decay_n --dataset_split=n
     ```
 
 ### Testing
@@ -108,5 +106,8 @@ In recent years, there is a growing tendency among the research of ground-based 
 <div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/Results%20of%20cloud%20segmentation.png?raw=true" width="900"/></div>
 
 * `PR curve of UCloudNet.png`: This figure shows the PR curve of our proposed model with different training configuration on full SWINySEG ground-based cloud seg-mentation data set.
+<div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/PR%20curve%20of%20UCloudNet.png?raw=true" width="900"/></div>
 
 * `Loss curve of the final output and auxiliary outputs.png`: This figure shows the training status of our proposed model qualitatively by observe curves of final loss together with auxiliary loss branches
+<div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/Loss%20curve%20of%20the%20final%20output%20and%20auxiliary%20outputs.png?raw=true" width="900"/></div>
+
