@@ -17,6 +17,8 @@ In recent years, there is a growing tendency among the research of ground-based 
 * `./dataset/`: This folder contains day-time images (augmented SWIMSEG), night-time images (augmented SWINSEG), and full SWINySEG dataset.
 
 ### Model
+* `UCloudNet Architecture.png`: It shows the architecture overview of proposed UCloudNet. Our UCloudNet is based on the U-Net structure which contains a series of decoders and encoders with channels concatenation in each stage. To compare with the original U-Net structure, we use a hyper-parameter $k$ to control the parameters amount and inspired by K. He et al., we add residual connection in each convolution block in encoder which is helpful for training the deeper layers. As for the training strategy, we use deep supervision to support the training process.
+
 <div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/UCloudNet%20Architecture.png?raw=true" width="700"/></div>
 
 ### Training
@@ -84,4 +86,5 @@ In recent years, there is a growing tendency among the research of ground-based 
 ```
 
 ### Results
+* `Results of cloud segmentation.png`: This figure shows the results of cloud segmentation for day-time (1-6 columns) and night-time (7-12 columns).
 <div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/Results%20of%20cloud%20segmentation.png?raw=true" width="900"/></div>
