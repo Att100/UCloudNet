@@ -106,8 +106,8 @@ In recent years, there is a growing tendency among the research of ground-based 
 <div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/Results%20of%20cloud%20segmentation.png?raw=true" width="900"/></div>
 
 * `PR curve of UCloudNet.png`: This figure shows the PR curve of our proposed model with different training configuration on full SWINySEG ground-based cloud seg-mentation data set.
-<div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/PR%20curve%20of%20UCloudNet.png?raw=true" width="600"/></div>
+<div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/PR%20curve%20of%20UCloudNet.png?raw=true" width="400"/></div>
 
 * `Loss curve of the final output and auxiliary outputs.png`: This figure shows the training status of our proposed model qualitatively by observe curves of final loss together with auxiliary loss branches
-<div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/Loss%20curve%20of%20the%20final%20output%20and%20auxiliary%20outputs.png?raw=true" width="600"/></div>
+<div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/Loss%20curve%20of%20the%20final%20output%20and%20auxiliary%20outputs.png?raw=true" width="400"/></div>
 
