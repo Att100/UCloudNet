@@ -5,16 +5,34 @@ In recent years, there is a growing tendency among the research of ground-based 
 
 ### Code
 * `./models/`: This folder contains UCloudNet model code.
-* `./utils/`: 
+* `./utils/`: This folder contains three assistant files (dataset, progressbar and metrics)
 * `./weights/`: This folder contains the weights after model training.
-* `notebook.ipynb`:
-* `train.py`:
+* `notebook.ipynb`: This notebook comtains code block for evaluation.
+* `train.py`: Script for model training
 
 
 ### Environment and Preparation
 
+- We provide requirements.txt for all modules needed in training and testing.
+
+    ```
+    conda create -n paddle python=3.9
+    conda activate paddle
+    conda install --yes --file requirements.txt
+    ```
+
+    if `paddlepaddle-gpu` can't be installed successfully, please visit [PaddlePaddle](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html) and follow the official instructions.
+
+- Download SWINySEG dataset from [SWINySEG](http://vintage.winklerbros.net/swinyseg.html), and place the uncompressed folder under `./dataset` folder. Your `./dataset` directory should follow the structure below, if the name of uncompressed folder is not SWINySEG, please rename it to SWINySEG.
+
+    ```
+    └─SWINySEG
+        ├─GTmaps
+        └─images
+    ```
+
 ### Data
-* `./dataset/`: This folder contains day-time images (augmented SWIMSEG), night-time images (augmented SWINSEG), and full SWINySEG dataset.
+* `./dataset/`: This folder contains the full SWINySEG dataset.
 
 ### Model
 * `UCloudNet Architecture.png`: It shows the architecture overview of proposed UCloudNet. Our UCloudNet is based on the U-Net structure which contains a series of decoders and encoders with channels concatenation in each stage. To compare with the original U-Net structure, we use a hyper-parameter $k$ to control the parameters amount and inspired by K. He et al., we add residual connection in each convolution block in encoder which is helpful for training the deeper layers. As for the training strategy, we use deep supervision to support the training process.

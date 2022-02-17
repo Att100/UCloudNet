@@ -130,6 +130,3 @@ dmypy.json
 
 # dataset
 dataset/SWINySEG
-
-# some assistant file
-results/results.txt
