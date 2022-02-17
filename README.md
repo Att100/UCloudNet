@@ -88,5 +88,7 @@ In recent years, there is a growing tendency among the research of ground-based 
 ### Results
 * `Results of cloud segmentation.png`: This figure shows the results of cloud segmentation for day-time (1-6 columns) and night-time (7-12 columns).
 <div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/Results%20of%20cloud%20segmentation.png?raw=true" width="900"/></div>
+
 * `PR curve of UCloudNet.png`: This figure shows the PR curve of our proposed model with different training configuration on full SWINySEG ground-based cloud seg-mentation data set.
+
 * `Loss curve of the final output and auxiliary outputs.png`: This figure shows the training status of our proposed model qualitatively by observe curves of final loss together with auxiliary loss branches
