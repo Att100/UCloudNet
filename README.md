@@ -1,12 +1,15 @@
 # UCloudNet: A residual U-Net with deep supervision for cloud segmentation
 
-## 1. Executive summary
+### Executive summary
+In recent years, there is a growing tendency among the research of ground-based cloud image segmentation in meteorology area. A great number of researches based on traditional computer vision methods are released, which only consider simple feature of images, for example, color features and gradient variation of image after gray-scale preprocessing. With the development of deep learning in computer vision area, the CNN-based approaches are more likely to gain better performance on cloud segmentation. However, recent-years research that involve CNNs show that training consumption can be a limitation which always need thousands epochs to converge. In this paper, we introduce a residual U-Net with deep supervision for cloud segmentation which is proved to have better performance than other CNN-based approaches with less training consumption.
 
-## 2. Environment and Preparation
+### Environment and Preparation
 
-## 3. Usage
+### Data
 
-### 3.1 Training
+### Model
+
+### Training
 
 - help
 
@@ -64,10 +67,10 @@
     python train.py --k=4 --model_tag=ucloudnet_k_2_aux_lr_decay_n
     ```
 
-### 3.2 Testing
+### Testing
 
 ```
 # follow instructions in notebook.ipynb
 ```
 
-## 4. Results
+### Results
