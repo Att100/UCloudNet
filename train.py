@@ -130,7 +130,7 @@ def train(args):
                     loss, (_1x_loss, _2x_loss, _4x_loss) = bce_loss_with_aux(pred, label)
 
                 test_loss += loss.numpy()[0]
-                test_acc += accuracy(pred, label, args.model)
+                test_acc += accuracy(pred, label, args.aux)
 
                 if i != test_steps-1:
                     bar.updateBar(
