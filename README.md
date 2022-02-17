@@ -17,6 +17,7 @@ In recent years, there is a growing tendency among the research of ground-based 
 * `./dataset/`: This folder contains day-time images (augmented SWIMSEG), night-time images (augmented SWINSEG), and full SWINySEG dataset.
 
 ### Model
+<div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/UCloudNet%20Architecture.png?raw=true" width="300"/></div>
 
 ### Training
 
@@ -83,3 +84,4 @@ In recent years, there is a growing tendency among the research of ground-based 
 ```
 
 ### Results
+<div align=center><img src="https://github.com/Att100/UCloudNet/blob/main/Results%20of%20cloud%20segmentation.png?raw=true" width="300"/></div>
