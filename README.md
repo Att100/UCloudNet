@@ -13,7 +13,7 @@ In recent years, there is a growing tendency among the research of ground-based 
 
 ### Environment and Preparation
 
-- We provide requirements.txt for all modules needed in training and testing.
+- We provide requirements.txt for all modules needed in training and testing, if `paddlepaddle-gpu` can't be installed successfully, please visit [PaddlePaddle](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html) and follow the official instructions.
 
     ```
     conda create -n paddle python=3.9
@@ -21,7 +21,7 @@ In recent years, there is a growing tendency among the research of ground-based 
     conda install --yes --file requirements.txt
     ```
 
-    if `paddlepaddle-gpu` can't be installed successfully, please visit [PaddlePaddle](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html) and follow the official instructions.
+    
 
 - Download SWINySEG dataset from [SWINySEG](http://vintage.winklerbros.net/swinyseg.html), and place the uncompressed folder under `./dataset` folder. Your `./dataset` directory should follow the structure below, if the name of uncompressed folder is not SWINySEG, please rename it to SWINySEG.
 
