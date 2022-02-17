@@ -7,6 +7,9 @@ In recent years, there is a growing tendency among the research of ground-based 
 * `./models/`: This folder contains UCloudNet model code.
 * `./utils/`: 
 * `./weights/`: 
+* `notebook.ipynb`:
+* `train.py`:
+
 
 ### Environment and Preparation
 
