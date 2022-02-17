@@ -3,9 +3,15 @@
 ### Executive summary
 In recent years, there is a growing tendency among the research of ground-based cloud image segmentation in meteorology area. A great number of researches based on traditional computer vision methods are released, which only consider simple feature of images, for example, color features and gradient variation of image after gray-scale preprocessing. With the development of deep learning in computer vision area, the CNN-based approaches are more likely to gain better performance on cloud segmentation. However, recent-years research that involve CNNs show that training consumption can be a limitation which always need thousands epochs to converge. In this paper, we introduce a residual U-Net with deep supervision for cloud segmentation which is proved to have better performance than other CNN-based approaches with less training consumption.
 
+### Code
+* `./models/`: This folder contains UCloudNet model code.
+* `./utils/`: 
+* `./weights/`: 
+
 ### Environment and Preparation
 
 ### Data
+* `./dataset/`: This folder contains day-time images (augmented SWIMSEG), night-time images (augmented SWINSEG), and full SWINySEG dataset.
 
 ### Model
 
