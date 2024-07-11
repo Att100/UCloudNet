@@ -2,7 +2,7 @@
 
 With the spirit of reproducible research, this repository contains all the codes required to produce the results in the manuscript: 
 
-> Yijie Li, Hewei Wang, Shaofan Wang, and Soumyabrata Dev, UCloudNet: A Residual U-Net with Deep Supervision for Sky/Cloud Image Segmentation, *under review*, 2024.
+> Yijie Li, Hewei Wang, Shaofan Wang, and Soumyabrata Dev, UCloudNet: A Residual U-Net with Deep Supervision for Sky/Cloud Image Segmentation, *IEEE International Geoscience and Remote Sensing Symposium (IGARSS)*, 2024.
 
 Please cite the above paper if you intend to use whole/part of the code. This code is only for academic and research purposes.
 
@@ -34,6 +34,9 @@ In recent years, there is a growing tendency among the research of ground-based 
         ├─GTmaps
         └─images
     ```
+
+### Manuscript
+* `./manuscript.pdf`: This file is the camera ready version of the manuscript.
 
 ### Data
 * `./dataset/`: This folder contains the full SWINySEG dataset.
