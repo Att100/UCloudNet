@@ -6,6 +6,18 @@ With the spirit of reproducible research, this repository contains all the codes
 
 Please cite the above paper if you intend to use whole/part of the code. This code is only for academic and research purposes.
 
+### Citing UCloudNet
+If you find UCloudNet useful in your research, please consider citing our [paper](https://ieeexplore.ieee.org/document/10640450).
+```
+@inproceedings{li2024ucloudnet,
+  title={{UCloudNet: A Residual U-Net with Deep Supervision for Cloud Image Segmentation}},
+  author={Li, Yijie and Wang, Hewei and Wang, Shaofan and Lee, Yee Hui and Pathan, Muhammad Salman and Dev, Soumyabrata},
+  booktitle={IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium},
+  pages={5553--5557},
+  year={2024},
+  organization={IEEE}
+}
+```
 ### Executive summary
 In recent years, there is a growing tendency among the research of ground-based cloud image segmentation in meteorology area. A great number of researches based on traditional computer vision methods are released, which only consider simple feature of images, for example, color features and gradient variation of image after gray-scale preprocessing. With the development of deep learning in computer vision area, the CNN-based approaches are more likely to gain better performance on cloud segmentation. However, recent-years research that involve CNNs show that training consumption can be a limitation which always need thousands epochs to converge. In this paper, we introduce a residual U-Net with deep supervision for cloud segmentation which is proved to have better performance than other CNN-based approaches with less training consumption.
 
